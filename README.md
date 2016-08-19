@@ -5,20 +5,26 @@ Provides a way to run menubar commands through dmenu.
 
 Dependencies
 ============
-* python-dbus
+* appmenu-qt
+* bzr
 * dmenu
-* ?
+* python
+* python-dbus
+* python2-ptyprocess
+* unity-gtk-module-standalone-bzr
+* webkitgtk
+* ...
 
-i3-appmenu-service.py
+~/.config/i3/i3-appmenu-service.py
 =====================
 Incomplete implementation of the com.canonical.AppMenu.Registrar DBus service.
 Applications exporting their menu through dbusmenu need this service to run.
 
-i3-hud-menu.py
+~/.config/i3/i3-hud-menu.py
 ==============
 Try to get the menu of the currently focused X11 window, list possible actions and ask the used which one to run.
 
-Add to .profile : 
+Add to ~/.profile : 
 
     if [ -n "$GTK_MODULES" ]
     then
@@ -36,8 +42,8 @@ Add to .profile :
 
 i3-wm config
 ============
-    exec ~/.i3/i3-appmenu-service.py
-    bindsym $mod+x exec ~/.i3/i3-hud-menu.py
+    exec ~/.config/i3/i3-appmenu-service.py
+    bindsym $mod+x exec ~/.config/i3/i3-hud-menu.py
     
 Note
 ====
