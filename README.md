@@ -2,7 +2,7 @@ Gnome HUD Menu
 ===========
 Provides a text based keyboard navigatable HUD menu for certain GTK apps which runs menubar commands through dmenu.
 
-![Inkscape](/Genesis/Profiles/Loren/Workspace/gnome-hud-menu/example-inkscape.png  "Inkscape Gnome HUD Menu example")
+![Inkscape](https://github.com/ElectricPrism/gnome-hud-menu/blob/master/example-inkscape.png  "Inkscape Gnome HUD Menu example")
 
 Works With
 ====
@@ -80,6 +80,8 @@ gnome-wm config [ IGNORE ]
 
 Gnome Control Center
 ====
+
+![Gnome HUD Menu Shortcut](https://github.com/ElectricPrism/gnome-hud-menu/blob/master/gnome-control-center-shortcut.png  "Gnome HUD Menu Shortcut")
 
 Create a binding in [Gnome Control Center ] -> [ Keyboard ] -> [ Add ]
 
