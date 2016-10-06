@@ -85,10 +85,10 @@ Gnome Control Center
 
 Create a binding in [Gnome Control Center ] -> [ Keyboard ] -> [ Add ]
 
-###Title
+###Name
 	Gnome HUD Menu
 
-###Exec
+###Command
 	/opt/gnome-hud-menu/gnome-hud-menu.py
 
 ###Shortcut
